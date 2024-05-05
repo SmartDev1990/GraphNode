@@ -19,8 +19,8 @@ services:
       postgres_pass: let-me-in
       postgres_db: graph-node
       ipfs: 'ipfs:5001'
-      ethereum: 'mainnet:https://sphinx.shardeum.org'
-      ethereum: 'testnet:https://base.llamarpc.com'
+      shardeum: 'testnet:https://sphinx.shardeum.org'
+      base: 'mainnet:https://base.llamarpc.com'
       GRAPH_LOG: info
   ipfs:
     image: ipfs/go-ipfs:v0.10.0
