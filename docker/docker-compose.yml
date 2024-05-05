@@ -20,6 +20,7 @@ services:
       postgres_db: graph-node
       ipfs: 'ipfs:5001'
       ethereum: 'mainnet:https://sphinx.shardeum.org'
+      ethereum: 'https://base.llamarpc.com'
       GRAPH_LOG: info
   ipfs:
     image: ipfs/go-ipfs:v0.10.0
